@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', italic;
+    background: #4c6da0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div[style*="text-align: center"] {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-weight: 610;
+}
+
+label {
+    display: block;
+    text-align:left;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #5f1d1d;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s;
+}
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #5f1d1d;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #3a7bc8;
+}
+
+a {
+    text-decoration: none;
+}
